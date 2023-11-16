@@ -31,8 +31,8 @@ class Stack:
 
     def __str__(self) -> str:
         """String representation of the stack"""
-        return f"The stack contains: {self.the_stack}"
-
+        #eturn f"The stack contains: {self.the_stack}"
+        return f"the length of the stack is {len(self.the_stack)}"
     def is_empty(self) -> bool:
         """Check if stack has no elements
 
