@@ -23,13 +23,20 @@ After completing the assignment, answer the following reflection questions:
 
 1. How do the performance and efficiency of the Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms compare when solving Sudoku puzzles? In what scenarios might one approach be preferable over the other?
 
-    The BFS algorithm is more efficient than the DFS 
+    The BFS algorithm is more efficient than the DFS since it explores  all the nodes on the same "level" before moving on, this allows the algorithm to find a solution the fastest while DFS searches through a lot more possibilities before backtracking causing the algorithm yo take more time. I didnt really have an answer other than efficieny so I searched it up. DFS does not require as much memory as BFS which may be helpful when memory is a critical resource in a system. 
 
 
 2. How did the choice of data structures (like the Stack for DFS and Queue for BFS) impact the implementation and functionality of the algorithms? Are there alternative data structures or design patterns that could have been used to achieve the same objectives?
-    
 
+    The choice of data structures impact the implementation and functionality of the algorithms because the algorithms have different ways of "tracking" information. For example, BFS typically uses a queue to maintain the order of nodes being explored. 
 
-3. Considering the current implementation, how might the Sudoku solver be adapted or extended for larger puzzles or different types of grid-based logic games? How can the lessons learned from this assignment be applied to real-world problem-solving or optimization challenges?
+    Searched up:
+        Deep search: Adjacency List, graph representation, and path stack 
+        Quickest search: Visited set/ Array, Parent pointers, hash set
 
+3. Considering the current implementation, how might the Sudoku solver be adapted or extended for larger puzzles or different types of grid-based logic games? How can the lessons learned from this assignment be ap, andplied to real-world problem-solving or optimization challenges?
+
+    The Sudoku solver could be used to solve the sliding puzzles as each sqaure of the puzzle must be arranged by a certain sequence to restore the pieces to their original places. 
+
+    Certain data structures help to optimize different algorithms that focus on different purposes. So understanding the strengths of algorithms help to optimize solution solving whether it be for finding the quickest solutions (ie. epidemiology) or find the best solution (ie.data mining)
 
